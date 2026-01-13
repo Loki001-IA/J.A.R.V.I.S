@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>JARVIS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>J.A.R.V.I.S</h1>
+
+  <select id="modo">
+    <option value="chat">Texto</option>
+    <option value="math">Cálculo</option>
+    <option value="image">Imagem</option>
+  </select>
+
+  <textarea id="entrada" placeholder="Digite aqui..."></textarea>
+
+  <button onclick="enviar()">Enviar</button>
+
+  <div id="resposta"></div>
+  <img id="imagem" />
+
+  <script src="script.js"></script>
+</body>
+</html>
